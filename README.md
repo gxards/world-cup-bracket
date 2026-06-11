@@ -1,16 +1,51 @@
 # World Cup 2026 Predictor
 
-A modern, dark-themed landing experience for predicting FIFA World Cup 2026 — built with Next.js, TypeScript, and Tailwind CSS.
+An interactive FIFA World Cup 2026 prediction platform built with Next.js, TypeScript, and Tailwind CSS.
 
-## What's included
+## Features
 
-- Football-themed landing page (FIFA+ / FotMob / UEFA inspired)
-- Sticky navigation with **Start Predicting** CTA
-- Hero section with tournament stats
-- Live countdown to opening match (11 June 2026)
-- Navigation cards for Group Stage, Third Place Selection, Knockout Stage, Awards, and Storylines
+### Group Stage
+- Predict all group stage standings
+- Drag and reorder teams
+- Automatic qualification tracking
 
-Prediction flows are **not** implemented yet — layout and UI only.
+### Third-Place Qualification
+- Select the best third-place finishers
+- Automatic Round of 32 generation
+
+### Knockout Stage
+- Complete Round of 32 bracket
+- Round of 16
+- Quarter-finals
+- Semi-finals
+- Third-place playoff
+- Final
+- Champion selection
+
+### Awards
+- Tournament award predictions
+
+### Storylines
+- Tournament storyline predictions
+
+### Persistence
+- Predictions automatically saved in browser local storage
+- Continue where you left off
+
+## Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- React
+
+
+
+```bash
+npm install
+npm run dev
+```
+
 
 ## Getting started
 
